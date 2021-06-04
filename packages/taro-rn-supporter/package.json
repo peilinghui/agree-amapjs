@@ -1,0 +1,32 @@
+{
+	"name": "@agreejs/rn-supporter",
+	"version": "3.2.11",
+	"description": "Taro rn supporter",
+	"main": "dist/index.js",
+	"author": "peilinghui",
+	"bugs": {
+		"url": "https://github.com/NervJS/taro/issues"
+	},
+	"directories": {
+		"test": "__tests__"
+	},
+	"files": [
+		"dist/",
+		"src/types/"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NervJS/taro.git"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=12.0.0",
+		"npm": ">=6.0.0"
+	},
+	"dependencies": {
+		"lodash": "^4.17.20",
+		"metro": "0.58.0",
+		"metro-react-native-babel-transformer": "^0.58.0",
+		"metro-resolver": "^0.58.0"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"name": "@agreejs/rn-transformer",
+	"version": "3.2.11",
+	"description": "Taro RN 入口文件处理",
+	"main": "dist/index.js",
+	"types": "./src/types/index.d.ts",
+	"author": "peilinghui",
+	"bugs": {
+		"url": "https://github.com/NervJS/taro/issues"
+	},
+	"directories": {
+		"test": "__tests__"
+	},
+	"files": [
+		"dist/",
+		"src/types/"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NervJS/taro.git"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=12.0.0",
+		"npm": ">=6.0.0"
+	},
+	"devDependencies": {
+		"lodash": "^4.17.20"
+	}
+}

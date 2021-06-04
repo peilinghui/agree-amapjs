@@ -1,0 +1,30 @@
+{
+  "name": "@agreejs/with-weapp",
+  "version": "3.2.11",
+  "description": "taroize 之后的运行时",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c rollup.config.js",
+    "dev": "rollup -c -w rollup.config.js",
+    "tsc": "tsc"
+  },
+  "files": [
+    "dist",
+    "src",
+    "index.js",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NervJS/taro/tree/master/packages/taro-with-weapp"
+  },
+  "author": "peilinghui",
+  "license": "MIT",
+  "dependencies": {
+    "@agreejs/runtime": "3.2.11",
+    "@agreejs/taro": "3.2.10",
+    "@babel/runtime": "^7.12.5",
+    "lodash": "^4.17.11"
+  }
+}

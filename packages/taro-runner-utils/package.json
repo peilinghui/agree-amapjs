@@ -1,0 +1,28 @@
+{
+  "name": "@agreejs/runner-utils",
+  "version": "3.2.11",
+  "description": "Taro runner utilities.",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NervJS/taro.git"
+  },
+  "keywords": [
+    "taro"
+  ],
+  "author": "peilinghui",
+  "license": "MIT",
+  "dependencies": {
+    "@agreejs/helper": "3.2.11",
+    "scss-bundle": "^3.0.2"
+  }
+}
